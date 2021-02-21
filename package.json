@@ -1,0 +1,32 @@
+{
+  "name": "@mbriggs/inspect",
+  "version": "0.1.1",
+  "description": "reflection tools",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "author": "Matt Briggs <matt@mattbriggs.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "env TS_NODE_TRANSPILE_ONLY=true mocha 'test/**/*.test.ts'"
+  },
+  "dependencies": {
+    "@types/debug": "*",
+    "@types/lodash": "*",
+    "debug": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "@types/mocha": "*",
+    "@types/node": "*",
+    "dotenv": "*",
+    "mocha": "*",
+    "node-ts": "*",
+    "prettier": "*",
+    "ts-node": "*",
+    "tsconfig-paths": "*",
+    "tslib": "*",
+    "typescript": "*",
+    "why-is-node-running": "*"
+  }
+}
